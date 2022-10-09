@@ -1,0 +1,41 @@
+{
+    "name": "revolution/laravel-switchbot",
+    "description": "SwitchBot API for Laravel",
+    "keywords": [
+        "laravel",
+        "SwitchBot"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revolution\\SwitchBot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Revolution\\SwitchBot\\SwitchBotServiceProvider"
+            ]
+        }
+    }
+}
