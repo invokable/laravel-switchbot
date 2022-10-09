@@ -1,4 +1,7 @@
 # SwitchBot API for Laravel
+[![tests](https://github.com/kawax/laravel-switchbot/actions/workflows/tests.yml/badge.svg)](https://github.com/kawax/laravel-switchbot/actions/workflows/tests.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/8a2ae5fa922fa7fc7ad6/maintainability)](https://codeclimate.com/github/kawax/laravel-switchbot/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8a2ae5fa922fa7fc7ad6/test_coverage)](https://codeclimate.com/github/kawax/laravel-switchbot/test_coverage)
 
 https://github.com/OpenWonderLabs/SwitchBotAPI
 
