@@ -16,12 +16,12 @@ class SwitchBotTest extends TestCase
     {
         Http::fake([
             '*' => Http::response([
-                "statusCode" => 100,
-                "body" => [
-                    "deviceList" => [],
-                    "infraredRemoteList" => [],
+                'statusCode' => 100,
+                'body' => [
+                    'deviceList' => [],
+                    'infraredRemoteList' => [],
                 ],
-                "message" => "success",
+                'message' => 'success',
             ]),
         ]);
 

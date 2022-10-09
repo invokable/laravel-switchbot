@@ -3,8 +3,8 @@
 namespace Revolution\SwitchBot;
 
 use Illuminate\Http\Client\PendingRequest;
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
 class SwitchBotServiceProvider extends ServiceProvider
