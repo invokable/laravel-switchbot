@@ -12,7 +12,7 @@ class SwitchBotServiceProvider extends ServiceProvider
     /**
      * @return void
      */
-    public function register()
+    public function register(): void
     {
         $this->mergeConfigFrom(
             __DIR__.'/../config/switchbot.php',
@@ -23,7 +23,7 @@ class SwitchBotServiceProvider extends ServiceProvider
     /**
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         $this->configurePublishing();
 
