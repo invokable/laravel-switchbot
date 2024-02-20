@@ -7,8 +7,8 @@ https://github.com/OpenWonderLabs/SwitchBotAPI
 
 ## Requirements
 
-- PHP >= 8.0
-- Laravel >= 9.0
+- PHP >= 8.1
+- Laravel >= 10.0
 
 ## Versioning
 
