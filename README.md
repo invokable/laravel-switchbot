@@ -1,6 +1,8 @@
 # SwitchBot API for Laravel
 
-https://github.com/OpenWonderLabs/SwitchBotAPI
+This package provides a simple integration with the SwitchBot API using Laravel's HTTP client macros.
+
+For specific API details, please refer to the official SwitchBot API repository: https://github.com/OpenWonderLabs/SwitchBotAPI
 
 ## Requirements
 
