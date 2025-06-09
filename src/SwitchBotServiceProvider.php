@@ -9,9 +9,6 @@ use Illuminate\Support\Str;
 
 class SwitchBotServiceProvider extends ServiceProvider
 {
-    /**
-     * @return void
-     */
     public function register(): void
     {
         $this->mergeConfigFrom(
@@ -20,9 +17,6 @@ class SwitchBotServiceProvider extends ServiceProvider
         );
     }
 
-    /**
-     * @return void
-     */
     public function boot(): void
     {
         $this->configurePublishing();
@@ -36,15 +30,13 @@ class SwitchBotServiceProvider extends ServiceProvider
             );
 
             return Http::baseUrl(config('switchbot.base_url'))
-                       ->withToken(config('switchbot.token'))
-                       ->withHeaders(compact(['sign', 't', 'nonce']));
+                ->withToken(config('switchbot.token'))
+                ->withHeaders(compact(['sign', 't', 'nonce']));
         });
     }
 
     /**
      * Configure publishing for the package.
-     *
-     * @return void
      */
     protected function configurePublishing(): void
     {
