@@ -4,6 +4,8 @@ This package provides a simple integration with the SwitchBot API using Laravel'
 
 For specific API details, please refer to the official SwitchBot API repository: https://github.com/OpenWonderLabs/SwitchBotAPI
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/invokable/laravel-switchbot)
+
 ## Requirements
 
 - PHP >= 8.2
